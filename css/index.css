@@ -1,0 +1,221 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Raleway", sans-serif;
+}
+.toTop {
+  position: fixed;
+  top: 1%;
+  left: 1%;
+  background-color: rgba(0, 0, 0, 0.1);
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.toTop:hover {
+  background-color: rgba(0, 0, 0, 1);
+  color: #fff;
+}
+
+header {
+  position: relative;
+  color: #fff;
+}
+
+header section {
+  background-image: url(../assets/business.jpg);
+  background-size: cover;
+  height: 100%;
+  filter: blur(5px);
+}
+.top-cap {
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.cap {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+header .txt {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 10px inset #fff;
+  border-top-left-radius: 5rem;
+  border-bottom-right-radius: 5rem;
+  text-align: center;
+}
+header .txt h1 {
+  font-size: 5rem;
+}
+header .txt h3 {
+  color: #8d9aab;
+  letter-spacing: 0.5rem;
+}
+.info {
+  position: relative;
+  background-color: #edeff5;
+}
+.info img {
+  border: 8px solid #edeff5;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.info .slider {
+  padding-top: 10rem;
+  width: 100%;
+  height: 100%;
+}
+
+.brdr {
+  background-color: #df3143;
+  width: 50px;
+  height: 8px;
+}
+.info .social i {
+  padding: 15px;
+  margin: 0 5px;
+  border-radius: 50%;
+  background-color: #000;
+  color: #edeff5;
+}
+.slides {
+  display: initial;
+  width: 100%;
+}
+.slide {
+  display: none;
+}
+.slide h3 {
+  letter-spacing: 0.3rem;
+  font-size: 3rem;
+}
+.slides .actv {
+  display: flex;
+}
+
+.date {
+  color: #94a3ba;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.hobi {
+  padding: 2.5rem;
+  background-color: #bac7dd;
+  color: #fff;
+  border-radius: 50%;
+  transition: background-color 0.5s;
+}
+.hobi:hover {
+  background-color: #95a4bd;
+}
+.info button {
+  position: absolute;
+  opacity: 0.2;
+  transition: opacity 0.2s;
+  padding: 0;
+}
+.info button:hover {
+  opacity: 1;
+}
+#prev {
+  left: 2%;
+  top: 50%;
+}
+#nxt {
+  right: 2%;
+  top: 50%;
+}
+
+.sec {
+  background-image: url(../assets/business2.jpg);
+  background-size: cover;
+}
+
+.sec h3 {
+  font-weight: 500;
+  font-size: 3rem;
+}
+.thik {
+  height: 40px;
+  position: relative;
+  color: #fff;
+  background-color: wheat;
+}
+.good {
+  position: absolute;
+  left: 15%;
+  top: 50%;
+  transform: translate(-15%, -50%);
+}
+.vGood {
+  position: absolute;
+  left: 33%;
+  top: 50%;
+  transform: translate(-33%, -50%);
+}
+.excellent {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.per {
+  font-size: 1.3rem;
+}
+.planned {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: #000;
+  font-weight: 600;
+}
+
+.rec {
+  background-color: #edeff5;
+}
+
+footer {
+  background-color: #2e4975;
+}
+
+footer i {
+  padding: 15px;
+  margin: 0 5px;
+  border-radius: 50%;
+  background-color: #000;
+  color: #edeff5;
+}
+.logo {
+  width: 3rem;
+}
+
+.num {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+@media only screen and (max-width: 770px) {
+  .info {
+    height: 200%;
+  }
+  .sec {
+    height: 150%;
+  }
+  .sec video {
+    margin-top: 1rem;
+  }
+}
+@media only screen and (max-height: 600px) {
+  .sec {
+    height: 300%;
+  }
+  .info img {
+    width: 20%;
+  }
+}
