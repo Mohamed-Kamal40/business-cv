@@ -31,7 +31,6 @@ header section {
   filter: blur(5px);
 }
 .top-cap {
-  height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
 }
 .cap {
@@ -62,14 +61,14 @@ header .txt h3 {
 .info img {
   border: 8px solid #edeff5;
   position: absolute;
+  width: 25%;
   top: 0;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 .info .slider {
-  padding-top: 10rem;
+  padding-top: 15rem;
   width: 100%;
-  height: 100%;
 }
 
 .brdr {
@@ -204,18 +203,15 @@ footer i {
   .info {
     height: 200%;
   }
-  .sec {
-    height: 150%;
-  }
   .sec video {
     margin-top: 1rem;
+  }
+  .info img {
+    width: 50%;
   }
 }
 @media only screen and (max-height: 600px) {
   .sec {
     height: 300%;
-  }
-  .info img {
-    width: 20%;
   }
 }
