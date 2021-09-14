@@ -32,6 +32,7 @@ header section {
 }
 .top-cap {
   background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
 }
 .cap {
   background-color: rgba(0, 0, 0, 0.8);
